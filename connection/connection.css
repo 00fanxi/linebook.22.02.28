@@ -1,0 +1,126 @@
+body{
+	display:flex;
+	flex-flow:column;
+	width:100vw;
+	margin:0;
+}
+
+/*hidden 값*/
+.hidden_content{
+	display:none;
+	color:white;
+}
+
+/*연결시 변화*/
+#target{
+	color : blue;
+	font-weight : 900;
+	width : 0.8rem;
+	height : 1.6rem ;
+	border : 0.3rem dashed blue;
+	font-size :2rem;
+}
+
+#target2{
+	border : 0.3rem dashed red;
+	font-weight:900;
+	color:red;
+	width : 0.8rem;
+	height : 1.6rem ;
+	font-size :2rem;
+}
+
+#Sel{
+	border : 0.3rem dashed black !important;
+	width : 0.8rem !important;
+	height : 1.6rem !important;
+}
+
+.num:hover{
+	border : 0.3rem dashed black !important;
+	width : 0.8rem !important;
+	height : 1.6rem !important;
+	font-size :2rem !important;
+}
+
+/* 헤더 관리 */
+
+#header_info{
+	padding-top:0.2rem;
+	padding-bottom:0.2rem;
+	display:flex;
+	flex-flow:row;
+	justify-content:center;
+	background:RGB(070,172,161);
+	color:white;
+	margin:0;
+	font-size:1rem;
+	position:relative;
+	top:3.4rem;
+}
+
+.west,.east{
+	display:flex;
+	flex-flow:column;
+	align-items:center;
+	background:gray;
+	border-radius:0.5rem;
+	padding:0.2rem;
+	width:15.28rem;
+	height:2.8rem;
+	text-align:center;
+}
+
+.west_opp,.east_opp{
+	font-size:1.2rem;
+}
+
+.west_name,.east_name{
+	font-size:1rem;
+}
+
+.center_this{
+	font-size:1.3rem;
+}
+
+.center{
+	display:flex;
+	flex-flow:row;
+	align-items:center;
+	justify-content:center;
+	font-size:1.3rem;
+	width:20rem;
+	margin:0;
+}
+
+/*  바디 관리 */
+.west_port,.east_port{
+	width:50%;
+	display:flex;
+	justify-content: center;
+}
+
+.connecting_ports{
+	position:relative;
+	display:flex;
+	flex-flow:row;
+	justify-content:center;
+	top:3.4rem;
+}
+
+nav{
+	height:3rem;
+	display:flex;
+	width:100%;
+	flex-flow:row-reverse;
+	align-items:center;
+	background:gray;
+	position:fixed;
+	border:solid 0.2rem white;
+}
+
+nav input{
+	height:2rem;
+	width:5rem;
+	margin-right:1rem;
+}
